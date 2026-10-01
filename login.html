@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CINEFIX - Entrar</title>
+
+    <!-- ALTERAÇÃO 21/08 - CSS DA PÁGINA DE LOGIN -->
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ========================================= -->
+    <!-- ALTERAÇÃO 21/08 - TOPO DA TELA DE LOGIN -->
+    <!-- ========================================= -->
+
+    <header class="topoLogin">
+
+        <a href="index.html" class="logo">
+
+            CINEFIX
+
+        </a>
+
+    </header>
+
+
+
+    <!-- ============================================= -->
+    <!-- ALTERAÇÃO 21/08 - ÁREA DE LOGIN E CADASTRO -->
+    <!-- ============================================= -->
+
+    <main class="areaLogin">
+
+
+        <div class="caixaLogin">
+
+
+            <!-- ALTERAÇÃO 21/08 - ESCOLHA LOGIN/CADASTRO -->
+
+            <div class="opcoesLogin">
+
+                <button
+                    id="botaoEntrar"
+                    class="opcaoAtiva"
+                >
+
+                    Entrar
+
+                </button>
+
+
+                <button id="botaoCadastro">
+
+                    Cadastre-se
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- ALTERAÇÃO 21/08 - FORMULÁRIO LOGIN -->
+            <!-- ================================= -->
+
+            <form id="formLogin">
+
+                <h1>Entrar</h1>
+
+
+                <p class="subtitulo">
+
+                    Acesse o CINEFIX para continuar.
+
+                </p>
+
+
+                <label>Email</label>
+
+
+                <input
+                    type="email"
+                    placeholder="Digite seu email"
+                    required
+                >
+
+
+                <label>Senha</label>
+
+
+                <input
+                    type="password"
+                    placeholder="Digite sua senha"
+                    required
+                >
+
+
+                <button
+                    type="submit"
+                    class="botaoPrincipal"
+                >
+
+                    Acessar
+
+                </button>
+
+            </form>
+
+
+
+            <!-- ===================================== -->
+            <!-- ALTERAÇÃO 21/08 - FORMULÁRIO CADASTRO -->
+            <!-- ===================================== -->
+
+            <form
+                id="formCadastro"
+                class="formEscondido"
+            >
+
+
+                <h1>Crie sua conta</h1>
+
+
+                <p class="subtitulo">
+
+                    Cadastre-se para acessar o catálogo.
+
+                </p>
+
+
+
+                <label>Nome</label>
+
+                <input
+                    type="text"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+
+
+                <label>Gênero</label>
+
+
+                <select required>
+
+                    <option value="">
+
+                        Selecione
+
+                    </option>
+
+
+                    <option value="masculino">
+
+                        Masculino
+
+                    </option>
+
+
+                    <option value="feminino">
+
+                        Feminino
+
+                    </option>
+
+                </select>
+
+
+
+                <label>Data de nascimento</label>
+
+
+                <input
+                    type="date"
+                    required
+                >
+
+
+
+                <label>Email</label>
+
+
+                <input
+                    type="email"
+                    placeholder="Digite seu email"
+                    required
+                >
+
+
+
+                <label>Senha</label>
+
+
+                <input
+                    type="password"
+                    placeholder="Digite uma senha"
+                    required
+                >
+
+
+
+                <label>Confirmar senha</label>
+
+
+                <input
+                    type="password"
+                    placeholder="Digite novamente"
+                    required
+                >
+
+
+
+                <button
+                    type="submit"
+                    class="botaoPrincipal"
+                >
+
+                    Criar conta
+
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ALTERAÇÃO 21/08 - JAVASCRIPT DO LOGIN -->
+
+    <script src="login.js"></script>
+
+
+</body>
+
+</html>

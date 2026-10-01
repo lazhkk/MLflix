@@ -1,0 +1,273 @@
+/* ============================================ */
+/* ALTERAÇÃO 21/08 - DESIGN DA TELA DE LOGIN */
+/* ============================================ */
+
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.75),
+            rgba(0,0,0,0.75)
+        ),
+        url("Imagens/imagem banner.jpg");
+
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+
+    color:white;
+
+
+    min-height:100vh;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - LOGO */
+
+.topoLogin{
+
+    padding:25px 60px;
+
+}
+
+
+.logo{
+
+    color:#e50914;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+    text-decoration:none;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - ÁREA CENTRAL */
+
+.areaLogin{
+
+    min-height:calc(100vh - 90px);
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    padding:30px;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - CAIXA DE LOGIN */
+
+.caixaLogin{
+
+    width:100%;
+
+    max-width:430px;
+
+
+    background:rgba(0,0,0,0.88);
+
+
+    padding:45px;
+
+
+    border-radius:8px;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - BOTÕES ENTRAR / CADASTRO */
+
+.opcoesLogin{
+
+    display:flex;
+
+    margin-bottom:35px;
+
+}
+
+
+.opcoesLogin button{
+
+    width:50%;
+
+
+    border:none;
+
+
+    background:#333;
+
+    color:#aaa;
+
+
+    padding:13px;
+
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+
+.opcoesLogin .opcaoAtiva{
+
+    background:#e50914;
+
+    color:white;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - TEXTOS */
+
+.caixaLogin h1{
+
+    margin-bottom:8px;
+
+}
+
+
+.subtitulo{
+
+    color:#aaa;
+
+    margin-bottom:25px;
+
+}
+
+
+.caixaLogin label{
+
+    display:block;
+
+
+    margin-top:15px;
+
+    margin-bottom:7px;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - CAMPOS */
+
+.caixaLogin input,
+.caixaLogin select{
+
+    width:100%;
+
+
+    padding:13px;
+
+
+    background:#333;
+
+
+    border:1px solid #555;
+
+    border-radius:5px;
+
+
+    color:white;
+
+
+    outline:none;
+
+}
+
+
+.caixaLogin input:focus,
+.caixaLogin select:focus{
+
+    border-color:#e50914;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - BOTÃO PRINCIPAL */
+
+.botaoPrincipal{
+
+    width:100%;
+
+
+    margin-top:25px;
+
+
+    padding:13px;
+
+
+    background:#e50914;
+
+
+    color:white;
+
+
+    border:none;
+
+    border-radius:5px;
+
+
+    font-size:16px;
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+}
+
+
+.botaoPrincipal:hover{
+
+    background:#ff1f2d;
+
+}
+
+
+
+/* ALTERAÇÃO 21/08 - ESCONDER CADASTRO */
+
+.formEscondido{
+
+    display:none;
+
+}

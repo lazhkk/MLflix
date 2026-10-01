@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CINEFIX - Assistir</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="paginaPlayer">
+
+    <!-- MENU -->
+    <header class="navbar">
+
+        <div class="logo">CINEFIX</div>
+
+        <a href="index.html" class="voltar">
+            ✕ Fechar
+        </a>
+
+    </header>
+
+
+    <!-- PLAYER -->
+    <main class="areaPlayer">
+
+        <div class="videoContainer">
+
+            <iframe
+                id="playerYoutube"
+                src=""
+                title="Trailer"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+
+        <!-- INFORMAÇÕES -->
+        <section class="infoPlayer">
+
+            <h1 id="tituloPlayer"></h1>
+
+            <p id="descricaoPlayer"></p>
+
+        </section>
+
+    </main>
+
+
+    <script type="module" src="player.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+
+    <title>CINEFIX</title>
+
+
+    <!-- ALTERAÇÃO 21/08 - CSS DO CATÁLOGO -->
+
+    <link
+        rel="stylesheet"
+        href="catalogo.css"
+    >
+
+
+</head>
+
+
+<body>
+
+
+
+    <!-- ================================= -->
+    <!-- ALTERAÇÃO 21/08 - MENU PRINCIPAL -->
+    <!-- ================================= -->
+
+    <header class="navbarCatalogo">
+
+
+        <div class="ladoEsquerdo">
+
+
+            <div class="logo">
+
+                CINEFIX
+
+            </div>
+
+
+
+            <!-- ALTERAÇÃO 21/08 - FILMES / SÉRIES -->
+
+            <nav class="menuCatalogo">
+
+
+                <button
+                    class="menuAtivo"
+                    data-tipo="todos"
+                >
+
+                    Início
+
+                </button>
+
+
+                <button data-tipo="filme">
+
+                    Filmes
+
+                </button>
+
+
+                <button data-tipo="serie">
+
+                    Séries
+
+                </button>
+
+
+            </nav>
+
+
+        </div>
+
+
+
+        <div class="ladoDireito">
+
+
+
+            <!-- ================================= -->
+            <!-- ALTERAÇÃO 21/08 - BARRA DE BUSCA -->
+            <!-- ================================= -->
+
+            <div class="pesquisa">
+
+
+                <span>
+
+                    🔍
+
+                </span>
+
+
+                <input
+                    type="text"
+                    id="campoPesquisa"
+                    placeholder="Pesquisar filmes e séries"
+                >
+
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- ALTERAÇÃO 21/08 - PERFIL -->
+            <!-- ================================= -->
+
+            <div class="usuario">
+
+
+                <span class="ola">
+
+                    OLÁ
+
+                </span>
+
+
+                <img
+                    src="Imagens/GatoFotodePerfil.jpg"
+                    class="fotoUsuario"
+                    id="fotoUsuario"
+                    alt="Perfil"
+                >
+
+
+
+                <!-- ALTERAÇÃO 21/08 - MENU PERFIL -->
+
+                <div
+                    class="menuPerfil"
+                    id="menuPerfil"
+                >
+
+
+                    <button id="mostrarFavoritos">
+
+                        ♥ Favoritos
+
+                    </button>
+
+
+                    <a href="index.html">
+
+                        Sair
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- ======================================== -->
+    <!-- ALTERAÇÃO 21/08 - CONTEÚDO DO CATÁLOGO -->
+    <!-- ======================================== -->
+
+    <main class="conteudoCatalogo">
+
+
+        <div class="cabecalhoConteudo">
+
+
+            <h1 id="tituloCatalogo">
+
+                Filmes e Séries
+
+            </h1>
+
+
+            <p>
+
+                Escolha o que deseja assistir.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- ALTERAÇÃO 21/08 - CARDS -->
+
+        <div
+            id="gradeCatalogo"
+            class="gradeCatalogo"
+        >
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ALTERAÇÃO 21/08 - JAVASCRIPT DO CATÁLOGO -->
+
+    <script
+        type="module"
+        src="catalogo.js"
+    >
+    </script>
+
+
+</body>
+
+</html>
