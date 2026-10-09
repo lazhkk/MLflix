@@ -48,7 +48,7 @@ body{
     background-image:
     linear-gradient(to top, #141414 10%, transparent 60%),
     linear-gradient(to right, rgba(0,0,0,0.8), transparent 60%),
-    url('/Imagens/imagem\ banner.jpg');   /* coloque sua imagem aqui */
+    url('/Imagens/banner.jpeg');   /* coloque sua imagem aqui */
 
     background-size:cover;
     background-position:center;
