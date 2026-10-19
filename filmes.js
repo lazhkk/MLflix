@@ -4,7 +4,7 @@ export const filmes = [
     {
         id: "interestelar",
         titulo: "Interestelar",
-        imagem: "Imagens/imagem.jpg",
+        imagem: "Imagens/filme1.png",
         descricao: "Um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade.",
         trailer: "i6avfCqKcQo?si=c67bqEGle7cgphln",
 
