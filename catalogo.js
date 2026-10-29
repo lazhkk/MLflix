@@ -43,7 +43,7 @@ function pegarFavoritos(){
 
     const dados =
         localStorage.getItem(
-            "cinefixFavoritos"
+            "loveflixFavoritos"
         );
 
 
@@ -69,7 +69,7 @@ function salvarFavoritos(lista){
 
     localStorage.setItem(
 
-        "cinefixFavoritos",
+        "loveflixFavoritos",
 
         JSON.stringify(lista)
 
