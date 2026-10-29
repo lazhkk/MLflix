@@ -3,10 +3,8 @@
 // ==============================================
 
 
-import {
-    filmes,
-    series
-} from "./filmes.js";
+import { filmes, series } from "./filmes.js";
+import { configurarFallbacksDeImagem } from "./poster-fallback.js";
 
 
 
@@ -450,6 +448,7 @@ function mostrarConteudos(){
 
 
 
+    configurarFallbacksDeImagem(gradeCatalogo);
     ativarBotoesFavorito();
 
 }

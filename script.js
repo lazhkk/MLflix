@@ -1,4 +1,5 @@
-import { filmes, series } from "./filmes.js";    
+import { filmes, series } from "./filmes.js";
+import { configurarFallbacksDeImagem } from "./poster-fallback.js";    
     
     // =========================
     // FUNÇÃO CRIAR CARD
@@ -56,6 +57,7 @@ import { filmes, series } from "./filmes.js";
         series.forEach(function(s){
             listaSeries.innerHTML += criarCard(s, "serie");
         });
+        configurarFallbacksDeImagem(document);
     
     }
     

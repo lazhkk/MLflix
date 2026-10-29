@@ -340,3 +340,6 @@ body{
 
     transform:scale(1.03);
 }
+
+/* Poster reserva para imagens locais ausentes no deploy. */
+.card img.imagemIndisponivel { object-fit: cover; background: #1b1b1b; }
